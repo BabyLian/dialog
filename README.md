@@ -26,11 +26,12 @@
 ####如何使用
 ```
 new Dialog("你好吧", {addClass: 'song', title: "抽奖", cancelValue: "残忍拒绝", sureValue: "果断接受", 
-cancelFun: function () {
-        alert("close")
-    }, 
-sureFun: function () {
-        alert("sure")
-    }});
+            cancelFun: function () {
+                    alert("close")
+                }, 
+            sureFun: function () {
+                    alert("sure")
+                }
+    });
 
 ```
