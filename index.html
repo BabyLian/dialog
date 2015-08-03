@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dialog</title>
+    <link rel="stylesheet" href="dialog.css"/>
+</head>
+<body>
+<button id="J_Show">show dialog</button>
+<div style="height: 2000px; background-color: #0066cc;"></div>
+<script type="text/javascript" src="dialog.js"></script>
+<script type="text/javascript">
+    var dialog;
+    document.getElementById("J_Show").onclick = function () {
+         dialog = new Dialog("你好吧",{addClass:'song',title:"抽奖",cancelValue:"残忍拒绝",sureValue:"果断接受",cancelFun:function(){alert("close")},sureFun:function(){alert("sure")}});
+    }
+</script>
+</body>
+</html>
