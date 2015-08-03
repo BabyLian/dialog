@@ -1,6 +1,6 @@
 ### 弹窗
 功能：支持标题、内容、按钮文字、点击事件的配置
-![image](https://github.com/BabyLian/crop/raw/master/screenshots.png)
+![image](https://github.com/BabyLian/dialog/blob/master/screenshots.png)
 
 ####配置参数
   addClass: '', //包裹在外层的类名, 用来改变外观
